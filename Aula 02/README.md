@@ -2,30 +2,6 @@
 
 Esta pasta contém a segunda versão do projeto da monitoria: uma aplicação Python que seleciona contexto externo antes de chamar uma LLM.
 
-## Preparação
-
-No terminal, dentro desta pasta:
-
-```bash
-python -m venv .venv
-```
-
-Ative o ambiente virtual e instale as dependências:
-
-```bash
-pip install -r requirements.txt
-```
-
-Copie o arquivo de exemplo e preencha a chave da Groq:
-
-```bash
-copy env.example .env
-```
-
-No macOS ou Linux, use `cp env.example .env`.
-
-Depois, abra `aula2_context_engineering_template.ipynb` no VSCode ou no Jupyter e execute as células em ordem.
-
 ## O que muda na V2
 
 Na Aula 01, a aplicação enviava apenas a pergunta e as instruções. Agora ela:

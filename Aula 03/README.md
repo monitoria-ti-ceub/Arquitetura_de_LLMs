@@ -2,30 +2,6 @@
 
 Esta pasta contém a terceira versão do projeto da monitoria: uma aplicação Python que permite ao modelo solicitar a execução de funções externas.
 
-## Preparação
-
-No terminal, dentro desta pasta:
-
-```bash
-python -m venv .venv
-```
-
-Ative o ambiente virtual e instale as dependências:
-
-```bash
-pip install -r requirements.txt
-```
-
-Copie o arquivo de exemplo e preencha a chave da Groq:
-
-```bash
-copy env.example .env
-```
-
-No macOS ou Linux, use `cp env.example .env`.
-
-Depois, abra `aula3_tool_calling_template.ipynb` no VSCode ou no Jupyter e execute as células em ordem.
-
 ## O que muda na V3
 
 Na Aula 02, a aplicação selecionava contexto para o modelo ler. Agora ela também descreve ferramentas que o modelo pode solicitar:

@@ -2,30 +2,6 @@
 
 Esta pasta contém a quarta versão do projeto da monitoria: uma aplicação Python que permite ao modelo solicitar a execução de ferramentas de um servidor MCP, assim como elucida o processo de criação/conexão de um.
 
-## Preparação
-
-No terminal, dentro desta pasta:
-
-```bash
-python -m venv .venv
-```
-
-Ative o ambiente virtual e instale as dependências:
-
-```bash
-pip install -r requirements.txt
-```
-
-Copie o arquivo de exemplo e preencha a chave da Groq:
-
-```bash
-copy env.example .env
-```
-
-No macOS ou Linux, use `cp env.example .env`.
-
-Depois, abra `aula4_mcp_template.ipynb` no VSCode ou no Jupyter e execute as células em ordem.
-
 ## O que muda na V4
 
 Na Aula 04, a aplicação selecionava ferramentas que ela iria utilizar, e solicitava a sua execução para geração de contexto, nesta nós abstraimos tudo que aprendemos em um único servidor, para que a solicitação não mais possa ser feita por somente uma aplicação:
